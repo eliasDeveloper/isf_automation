@@ -1,0 +1,70 @@
+{
+	"users": {
+		"main_user": {
+			"username": "Fady",
+			"password": "Tanous1258Tanous@"
+		},
+		"main_user_2": {
+			"username": "Elias",
+			"password": "Password#123"
+		},
+		"u0_user": {
+			"username": "u0",
+			"password": "U0u0isthebest@11"
+		},
+		"u1_user": {
+			"username": "u1",
+			"password": "Tanous1258Tanous@1!"
+		},
+		"multi_site_user": {
+			"username": "multiSiteUser",
+			"password": "Password#1234"
+		},
+		"login_authelia": {
+			"username": "fady.c",
+			"password": "F@d33CHQccc765"
+		}
+	},
+	"default_page": "https://hqcccqa.sirenanalytics.com/hqcccweb/map-view/map",
+	"base_url": "https://hqcccqa.sirenanalytics.com/hqcccweb",
+	"hqccc_urls": {
+		"get_login_page": "https://hqcccqa.sirenanalytics.com/hqcccweb/login",
+		"user_profile": {
+			"get_user_profile": "https://hqcccqa.sirenanalytics.com/hqcccweb/user-profile"
+		},
+		"incident": {
+			"get_incident_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/incident",
+			"new_incident_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/incident/add-incident"
+		},
+		"chat": {
+			"incident_chat": "https://hqcccqa.sirenanalytics.com/hqcccweb/chat-view/chat",
+			"chat_room": "https://hqcccqa.sirenanalytics.com/hqcccweb/chat-room-view/chat-room-list",
+			"chat_room_chat": "https://hqcccqa.sirenanalytics.com/hqcccweb/chat-room-view"
+		},
+		"privileged_information": {
+			"add_privileged_information_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/privileged-information/add-privileged-information",
+			"get_privileged_information_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/privileged-information/privileged-information-list"
+		},
+		"admin_module": {
+			"main_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/admin/user/user-list",
+			"add_new_user_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/admin/user/add-user",
+			"specific_user_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/admin/user",
+			"lookups_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/admin/inc-lookups-configuration",
+			"officers_url":"https://hqcccqa.sirenanalytics.com/hqcccweb/admin/officers/officers-list",
+			"add_new_officer_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/admin/officers/add-officer",
+			"specified_officer_url":"https://hqcccqa.sirenanalytics.com/hqcccweb/admin/officers/",
+			"groups_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/admin/group/group-list",
+			"add_group_url":"https://hqcccqa.sirenanalytics.com/hqcccweb/admin/group/add-group",
+			"specified_group_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/admin/group/",
+			"sites_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/admin/site/site-list"
+		},
+		"problem_report_module": {
+			"main_url": "https://hqcccqa.sirenanalytics.com/hqcccweb/report-problem/report-problem-list",
+			"add_report": "https://hqcccqa.sirenanalytics.com/hqcccweb/report-problem/add-report-problem",
+			"problem_report": "https://hqcccqa.sirenanalytics.com/hqcccweb/report-problem/"
+		}
+	},
+	"local_images_path": "C:/Users/FadyChebly/OneDrive - SirenAssociates/Desktop/UI-Automation-Resources",
+	"remote_images_path": "C:/Users/Carole/Desktop/UI-Automation-Resources",
+	"include_verified_login": true
+}
