@@ -1,0 +1,39 @@
+{
+  "name": "hqccc",
+  "version": "1.0.0",
+  "description": "This folder will contain automation scripts for HQCCC website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:local": "npx wdio run ./wdio.conf.js",
+    "wdio": "wdio run wdio.conf.js",
+    "publish-please": "publish-please",
+    "prepublishOnly": "publish-please guard"
+  },
+  "author": "Fady Chebly",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/register": "^7.18.9",
+    "@wdio/allure-reporter": "^7.20.7",
+    "@wdio/cli": "^7.20.9",
+    "@wdio/devtools-service": "^7.20.9",
+    "@wdio/local-runner": "^7.20.9",
+    "@wdio/mocha-framework": "^7.20.7",
+    "@wdio/selenium-standalone-service": "^7.20.8",
+    "@wdio/spec-reporter": "^7.20.8",
+    "wdio-chromedriver-service": "^7.3.2",
+    "wdio-json-reporter": "^3.0.0",
+    "wdio-selenium-standalone-service": "0.0.12"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.18.1",
+    "chai": "^4.3.6",
+    "chromedriver": "^106.0.1",
+    "wdio-v6-testrail-reporter": "0.0.14",
+    "webdriver": "^7.20.8",
+    "webdriverio": "^7.20.9"
+  }
+}
